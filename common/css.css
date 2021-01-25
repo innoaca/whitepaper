@@ -103,7 +103,7 @@ a { color: inherit }
   .left_menu_title{color:#53C4FC;font-weight:700;font-size:2.0rem;}
   #close_btn {position:absolute;display:none;margin-left: 75%;z-index:3;}
   #content .blue_bar {display:none;}
-
+    .haedan{max-width:100%;height:auto;}
 }
 @media (min-width: 768px) {
   #top_div { padding:0; margin-bottom: 50px; }
@@ -115,6 +115,7 @@ a { color: inherit }
     
   #left_menu{display:none;}
   #close_btn {display:none;}
+    .haedan{margin:10px;}
 }
 .next_btn_bg{width:115px;height:28px;background: url(img/next_btn_bg.jpg);font-size:15px;font-weight:700;padding-left:15px;cursor:pointer;}
 #bar {position:absolute;z-index:2;}
